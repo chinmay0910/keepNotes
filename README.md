@@ -13,13 +13,13 @@ keepNotes is a simple and efficient note-taking web app built with React, JavaSc
 - **Database:** MongoDB
 
 ## Getting Started 🛠️
-1. Clone the repo: `git clone https://github.com/chinmay0910/keepNotes.git`
-2. Install dependencies for frontend and backend: `npm install`
-3. Configure MongoDB connection in `.env` file
-4. Use `JWT_SECRET` from .env. 
+1. Clone the repo: ```git clone https://github.com/chinmay0910/keepNotes.git```
+2. Install dependencies for frontend and backend: ```npm install```
+3. Configure MongoDB connection in `backend/db.js` file
+4.  Configure `JWT_SECRET` in `backend/middleware/fetchuser.js` 
 5. Start the development server: (both for client and server)
-   - For client : `npm run dev`
-   - For Server : `node index.js`
+   - For client : ```npm run dev```
+   - For Server : ```node index.js```
 
 ## Some Screenshots
 - Desktop View
