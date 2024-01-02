@@ -1,0 +1,23 @@
+{
+  "name": "inotebookbackend",
+  "version": "1.0.0",
+  "description": "This is a Cloud based platform where anyine can store his data securly and get acces to it with just one click.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cloud",
+    "Base",
+    "Notebook"
+  ],
+  "author": "Chinmay Bhai",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3"
+  }
+}
