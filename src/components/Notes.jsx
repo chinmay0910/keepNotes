@@ -20,7 +20,7 @@ export const Notes = (props) => {
 
         }
 
-    }, [Note])
+    }, [])
 
     const ref = useRef(null)
     const refClose = useRef(null)

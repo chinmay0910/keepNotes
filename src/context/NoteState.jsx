@@ -77,7 +77,6 @@ const NoteState = (props) => {
             headers: {
               "Content-Type": "application/json",
               "auth-token": localStorage.getItem('token')
-              // 'Content-Type': 'application/x-www-form-urlencoded',
             },
             body: JSON.stringify({title, description, tag}), // body data type must match "Content-Type" header
           });
@@ -116,7 +115,6 @@ const NoteState = (props) => {
             headers: {
               "Content-Type": "application/json",
               "auth-token": localStorage.getItem('token')
-              // 'Content-Type': 'application/x-www-form-urlencoded',
             },
             body: JSON.stringify({title, description, tag}), // body data type must match "Content-Type" header
           });
