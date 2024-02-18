@@ -4,51 +4,7 @@ import NoteContext from "./NoteContext";
 
 const NoteState = (props) => {
 
-    const s1 = [{
-        "_id": "658dcea3e03a2ccb129556fd",
-        "user": "658d4c267eb044580deba921",
-        "title": "chxaxassssss",
-        "description": "gmassaacscsdaxcil.com",
-        "tag": "oopsxsxssxscda sccxs",
-        "date": "2023-12-28T19:38:11.509Z",
-        "__v": 0
-    },
-    {
-        "_id": "658dceade03a2ccb129556ff",
-        "user": "658d4c267eb044580deba921",
-        "title": "axassssss",
-        "description": "gmassaacscsdaxxcil.com",
-        "tag": "oopsxsxssxscda sccxs",
-        "date": "2023-12-28T19:38:21.713Z",
-        "__v": 0
-    },
-    {
-        "_id": "658dceec6d65866fe2d900d8",
-        "user": "658d4c267eb044580deba921",
-        "title": "axasssssss",
-        "description": "gmassaac scsdaxxcil.com",
-        "tag": "oopsxsxssxscda sccxs",
-        "date": "2023-12-28T19:39:24.290Z",
-        "__v": 0
-    },
-    {
-        "_id": "658dceec6d65866fe2d900d8",
-        "user": "658d4c267eb044580deba921",
-        "title": "axasssssss",
-        "description": "gmassaac scsdaxxcil.com",
-        "tag": "oopsxsxssxscda sccxs",
-        "date": "2023-12-28T19:39:24.290Z",
-        "__v": 0
-    },
-    {
-        "_id": "658dcef16d65866fe2d900da",
-        "user": "658d4c267eb044580deba921",
-        "title": "axasssssss",
-        "description": "gmassaac scsdax xcil.com",
-        "tag": "oopsxsxssxscda sccxs",
-        "date": "2023-12-28T19:39:29.687Z",
-        "__v": 0
-    },]
+    const s1 = [{}]
 
     const [Note, setNote] = useState(s1);
     

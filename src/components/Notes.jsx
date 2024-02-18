@@ -93,7 +93,7 @@ export const Notes = (props) => {
                     {Note.length === 0 ? "No notes available " : ""}
                 </div>
 
-                <div className="row mb-4">
+                <div className="row mb-4" style={{display: "flex", justifyContent: "center"}}>
                     {Note.map((ele, index) => (
                         <NoteItem key={index} updateNote={updateNote} note={ele} showAlert={props.showAlert}/>
 
